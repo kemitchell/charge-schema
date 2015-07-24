@@ -18,5 +18,5 @@
       "type": "string" },
     "type": {
       "enum": [ "availability" ] } },
-  "required": [ "amount", "client", "date", "description", "type" ],
+  "required": [ "amount", "client", "date", "type" ],
   "additionalProperties": false }
