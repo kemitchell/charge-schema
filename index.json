@@ -1,0 +1,22 @@
+{ "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "charge record",
+  "type": "object",
+  "properties": {
+    "amount": {
+      "type": "object",
+      "properties": {
+        "dollars": {
+          "type": "integer" },
+        "centers": {
+          "type": "integer" } } },
+    "client": {
+      "type": "string" },
+    "date": {
+      "type": "string",
+      "format": "date-time" },
+    "description": {
+      "type": "string" },
+    "type": {
+      "enum": [ "availability" ] } },
+  "required": [ "amount", "client", "date", "description", "type" ],
+  "additionalProperties": false }
