@@ -17,6 +17,6 @@
     "description": {
       "type": "string" },
     "type": {
-      "enum": [ "availability" ] } },
+      "enum": [ "consultation" ] } },
   "required": [ "amount", "client", "date", "type" ],
   "additionalProperties": false }
